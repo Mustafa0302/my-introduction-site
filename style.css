@@ -1,0 +1,111 @@
+@font-face {
+    font-family: monospace;
+    src: url(fonts/Poppins-Regular.ttf);
+  }
+  
+*
+{
+    margin: 0 auto;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+ font-family: monospace;
+    
+}
+/* banner start   */
+.banner
+{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+
+}
+
+.banner video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+   
+}
+/* banner end */
+/* banenr text star  */
+.banner .content
+{
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin:0 auto;
+
+    text-align: center;
+
+}
+.banner .content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    text-transform: capitalize;
+    color: azure;
+}
+.banner .content p
+{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: azure;
+}
+
+.banner .content .hoveringeffect
+{
+    color: #9e9e9e;
+    font-size: 1.5em;
+    font-weight: bolder;
+    
+
+}
+a.hoveringeffect{
+    color: #9e9e9e;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+a.hoveringeffect:hover 
+{
+     color:#9e9e9e(255, 0, 0); 
+     text-decoration:none; 
+     cursor:pointer;
+    border: 1px solid #757575; 
+    box-shadow: 2px 2px 10px #212121; 
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.144);
+
+
+}
+
+
+/* banner text end  */
+/* assignment boxes 
+ */
+ .assignmentboxes
+ {
+  margin: 400px auto;
+  box-shadow: 10px 10px 32px blue;
+  border: 6px inset rgb(89, 199, 250) ;
+ 
+ }
+ .bgimage
+ {
+     background-image: url(smoky.jpg);
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+    }

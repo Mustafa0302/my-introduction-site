@@ -1,0 +1,98 @@
+*
+{
+  margin-bottom: 2mm;
+  font-family: "Raleway-Regular.tff";
+}
+
+form{
+color: white;
+font-family: serif;
+
+
+}
+
+
+body {
+    align-self: center;
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+    
+   
+    
+} 
+fieldset{
+    border: 3px solid rgb(0, 0, 0);
+    width: 40%;
+    float: center;
+    margin: 0cm auto;
+    background-color: rgba(9, 16, 80, 0.274);
+  
+   
+   
+  }
+  div.image
+  {
+    text-align: center;
+    size: 40px;
+    
+  }
+  div.thankyou
+  {
+    font-size: 1.1cm;
+      text-align: center;
+      font-size: 30px;
+      color: green;
+    
+  }
+  div.goback
+  {
+      font-size: 1.3cm;
+    text-align: center;
+    color: purple;
+  }
+  div.submitted
+  {
+  
+    font-size: .8cm;
+    text-align: center;
+    color: purple;
+    
+  }
+  div.padding
+  {
+      padding-top: 10%;
+    
+  }
+
+div.formheading
+{
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(119, 35, 255);
+}
+div.imagesaylani
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.firstbox
+{
+float: left;
+
+}
+div.secondbox
+{
+padding-left: 4cm;
+
+}
+div.lastbox
+{
+  text-align: center;
+}
